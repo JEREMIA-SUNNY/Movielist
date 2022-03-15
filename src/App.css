@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,94 @@
     transform: rotate(360deg);
   }
 }
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 50vh;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(29, 96, 175, 1) 100%);
+  height: 50px;
+}
+.nav2 {
+  background-color: #282c34;
+  color: white;
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  font-size: small;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  opacity: 0.5;
+  box-shadow: 1px 2px 5px black;
+  text-decoration: none;
+}
+.nav3 {
+  display: flex;
+  gap: 50px;
+}
+.button1{
+    width: 300px;
+    height:100px;
+     padding:0.7em 1.7em;
+  margin:0 0.3em 0.3em 0;
+ 
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  font-size :1.8em;;
+  color:#FFFFFF;
+  background-color:#3369ff;
+  box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+  text-align:center;
+  margin-top: 50vh;
+  border-radius: 20px;
+  box-shadow: 0 10px 6px -6px #777;
+  
+}
+  .button1:active{
+  box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+  }
+  .button1:hover{
+    width:500px;
+    height: 200px;
+  }
+  .STbutt{
+    background-image: url(prof.jpeg);
+    height: 100vh;
+
+
+
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+margin-top: 20px;
+  
+}
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 450px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .images{
+      display: flex;
+      flex-direction: row;
+      gap:20px;
+  }
+  .price{
+    background-color: #282c34;
+    color: #FFFFFF;
+    border-radius:10px;
+    box-shadow:1px 2px 4px black;
+  }
+
